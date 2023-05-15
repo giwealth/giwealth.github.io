@@ -1,0 +1,76 @@
+body {
+  background-color: #fff0!important;
+}
+
+.main {
+  margin-top: 5rem;
+}
+
+.logo {
+  line-height: 50px;
+  /* display: flex; */
+}
+
+.img {
+  width: 38px;
+  height: 38px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: #e91e63;
+}
+
+.describe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  height: 354px;
+  /* background: url(/images/scan.png) no-repeat center center; */
+}
+
+@media screen and (max-width:768px) {
+  .describe {
+    height: 200px!important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+.app-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.blurb{
+  font-size: 18px;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+.thumbnail {
+  border: 0!important;
+}
+
+.fullMoon {
+  background-image:
+  linear-gradient(#DEDFE3 2%, #AEB3B9 95%),
+  radial-gradient(33% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
+}

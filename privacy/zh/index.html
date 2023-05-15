@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="手机盘点,,库存盘点,清点存货">
+  <meta name="description" content="StockTaking(www.stock-taking.app)手机盘点、方便、快捷、简单">
+  <!-- <link rel="icon" href="../../favicon.ico"> -->
+  <title>StockTaking</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">StockTaking</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="logo">
+          <img src="/images/logo.png" alt="logo" class="img">
+          <span class="name">StockTaking</span>
+        </div>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">首页</a></li>
+          <li><a href="/zh/privacy-policy.html">隐私政策</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container main">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="describe">
+          <div>
+          <div class="app-name">StockTaking</div>
+          <div class="blurb">手机盘点、方便、快捷、简单</div>
+          <div>
+            <a href="https://play.google.com/store/apps/details?id=com.stocktaking.stock_taking" target="_blank">
+              <button>Google Play Download</button>
+            </a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <img src="/images/scan.png" alt="StockTaking">
+      </div>
+    </div>
+    <div class="row" style="height: 400px;">
+
+    </div>
+  </main>
+
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).click(function() {
+        $("#navbar").attr("class", "navbar-collapse collapse");
+        $("#navbar").attr("aria-expanded", "false");
+    })
+    console.log(navigator.language)
+  </script>
+</body>
+
+</html>
